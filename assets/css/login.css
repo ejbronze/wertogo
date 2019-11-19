@@ -26,20 +26,14 @@
 }
 /* background for the body of the page */
 body {
-  /* background-image: url("");
+  background-image: url("https://media.giphy.com/media/2A5yv5Kv4UJauAOWK3/giphy.gif");
   background-size: cover;
-  background-repeat: no-repeat; */
+  background-repeat: no-repeat;
   /* Preserve aspet ratio */
   min-width: 100%;
   min-height: 100%;
 }
-#myVideo {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
-}
+
 /* Style to match our UI theme, overriding the Firebase style */
 h1.firebaseui-title {
   color: white;

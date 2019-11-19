@@ -18,15 +18,24 @@
   -webkit-animation: flicker-in-1 2s linear both;
   animation: flicker-in-1 2s linear both;
 }
-
-body,
+/* Background video  */
+/* body,
 html {
-  background: url("https://media.giphy.com/media/2A52lF7c8hwbeYdEdK/giphy.gif")
-    no-repeat center center fixed;
+  background: url("assets/images/splash.mp4") 
+  no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+} */
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -2;
 }
 .container {
   position: absolute;
